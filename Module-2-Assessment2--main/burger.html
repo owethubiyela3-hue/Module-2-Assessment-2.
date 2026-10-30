@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stye.css">
+    </head>
+    <img src="images/kings feast.png" id="home-logo-img">
+    <style>
+        .body-home {
+          background-image: url(images/BKG-All.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+        </style>
+
+    <body>
+        <h1>GOURMET <b>BURGERS</b> </h1>
+        <img src="images/BM1.jpg" width="80%">
+        <h4>The Vegetable Burger</h4>
+        <p>A Vegetarian Burger Special. Vegetable Burger With Freshly Made Frieds And Fresh Salad</p>
+        <h3>R113.50</h3>
+
+        <img src="images/BM2.jpg">
+        <h4>Burger Buzz</h4>
+        <p>Medium Beef Burger With French Frieds</p>
+        <h3>R125.00</h3>
+
+        <img src="images/BM3.jpg">
+        <h4>Burger N' Bite</h4>
+        <p>Small Chicken Burger and French Fried</p>
+        <h3>R95.00</h3>
+        <br>
+        <h5>Servers: 1 per person per <em>Burger</em></h5>
+
+        <label for="Toppings">Choose Your Toppings:</label>
+        <select id="Toppings">
+            <option value="choose">Choose</option>
+            <option value="Bacon">Bacon</option>
+            <option value="Cheese">Cheese</option>
+            <option value="Lettuce">Lettuce</option>
+            <option value="Pickles">Pickles</option>
+            <option value="Ketchup">Ketchup</option>
+            <option value="tomato">Tomato</option>
+        </select>
+
+        <form action="/action_page.php">
+            <p>Please Select Your Burger:</p>
+            <input type="radio" id="TheGrillThrill" name="fav_language" value="The Grill Thrill">
+            <label for="TheGrillThrill">The Grill Thrill</label><br>
+            <input type="radio" id="BurgerBuzz" name="fav_language" value="Burger Buzz">
+            <label for="BurgerBuzz">Burger Buzz</label><br>
+            <input type="radio" id="BurgerN'Bite" name="fav_language" value="Burger N' Bite">
+            <label for="BurgerN'Bite">Burger N' Bite</label>
+        <h5><i>You will be charged for Extras. Sauces are excluded</i></h5>
+        <button type="button"><a href="order.html">ORDER NOW</a></button>
+    </body>
+</html>

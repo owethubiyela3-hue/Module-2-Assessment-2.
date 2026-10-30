@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stye.css">
+    </head>
+    <img src="images/kings feast.png" id="home-logo-img">
+    <style>
+        .body-home {
+          background-image: url(images/hope.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+        </style>
+
+    <body>
+        <h1>PLACE YOUR ORDER!</h1>
+
+        <form action="/action_page.php">
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="fname">Email:</label><br>
+            <input type="text" id="femail" name="email" value=""><br>
+            <br>
+            <input type="radio" id="pickup" name="fav_language" value="pickup">
+            <label for="css">Pick Up Order</label><br>
+            <input type="radio" id="delivery" name="fav_language" value="delivery">
+            <label for="javascript">Delivery</label><br>
+            <br>
+            <input type="button" onclick="alert('ORDER PLACED SUCCESSFULLY!')" value="Order Now!">
+        </form>
+
+
+    </body>
+</html>

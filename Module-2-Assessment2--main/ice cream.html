@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stye.css">
+    </head>
+    <img src="images/kings feast.png" id="home-logo-img">
+    <style>
+        .body-home {
+          background-image: url(images/BKG-dessert.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+        </style>
+
+
+    <body>
+        <h1>ICE CREAM</h1>
+        <img src="images/Ice_cream.jpg" height="550px">
+        <h3>R25.00</h3>
+        <h5>Servers: 1 per person</h5>
+
+        <form action="/action_page.php">
+            <p>Please Select Your Ice-Cream:</p>
+         <input type="radio" id="Vanilla" name="fav_language" value="Vanilla">
+         <label for="Vanilla">Vanilla</label><br>
+         <input type="radio" id="Chocolate" name="fav_language" value="Chocolate">
+         <label for="Chocolate">Chocolate</label><br>
+         <input type="radio" id="Strawberry" name="fav_language" value="Strawberry">
+         <label for="Strawberry">Strawberry</label><br>
+         <input type="radio" id="ChocolateChipCookieDough" name="fav_language" value="Chocolate Chip Cookie Dough">
+         <label for="ChocolateChipCookieDough">Chocolate Chip Cookie Dough</label><br>
+         <input type="radio" id="FrozenYogurt" name="fav_language" value="Frozen Yogurt">
+         <label for="FrozenYogurt">Frozen Yogurt</label><br>
+<br>
+        <label for="Toppings">Extra:</label>
+        <select id="Toppings">
+            <option value="choose">Choose</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Caramel Sauce">Caramel Sauce</option>
+            <option value="Sprinkles">Sprinkles</option>
+            <option value="Nuts">Nuts</option>
+        </select><br>
+<br>
+        <button type="button"><a href="order.html">ORDER NOW</a></button>
+    </body>
+</html>

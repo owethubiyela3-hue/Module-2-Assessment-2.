@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stye.css">
+    </head>
+    <img src="images/kings feast.png" id="home-logo-img">
+    <style>
+        .body-home {
+          background-image: url(images/BKG-dessert.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+        </style>
+
+    <body>
+        <h1>ROYAL PIZZA</h1>
+        <img src="images/P1.png" width="80%">
+        <h3>R125.00</h3>
+        <h4>3 per Serve</h4>
+
+        <form action="/action_page.php">
+            <p>Please Select Your Pizza:</p>
+         <input type="radio" id="BBQBacon" name="fav_language" value="BBQ Bacon">
+         <label for="BBQBacon">BBQ Bacon</label><br>
+         <input type="radio" id="Chicken" name="fav_language" value="Chicken">
+         <label for="Chicken">Chicken</label><br>
+         <input type="radio" id="Sweet&SourRib" name="fav_language" value="Sweet & Sour Rib">
+         <label for="Sweet&SourRib">Sweet & Sour Rib</label><br>
+
+        <br><label for="Toppings">Choose Your Toppings:</label>
+        <select id="Toppings">
+            <option value="choose">Choose</option>
+            <option value="tomato">Tomato</option>
+            <option value="Avocado">Avocado</option>
+            <option value="Cheese">Cheese</option>
+            <option value="Bacon">Bacon</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Mushrooms">Mushrooms</option>
+        </select>
+        <h6><i>You will be charged for Extras. Sauces are excluded</i></h6>
+        <button type="button"><a href="order.html">ORDER NOW</a></button>
+    </body>
+</html>

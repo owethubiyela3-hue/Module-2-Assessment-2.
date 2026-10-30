@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.background-clip{
+    background-image: url(images/mixkit-chicken-burger-with-french-fries-3537-medium.mp4);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0,5s;
+}
+
+.contact h1 :hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.contact a{
+    text-decoration: none;
+    font-size: 24px;
+    border: 2px solid #fff;
+    
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.contact button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.contact a :hover{
+    background: rgb(69, 94, 105);
+    transition: 0,5s;
+}
+
+.body-home{
+    background-image: url(images/BKG-All.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*=========== HOME PAGE MENU =========*/
+
+.home-menu-item{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    border: 5px solid black;
+}
+
+.h1{
+    font-size: 80%;
+    font-style: initial;
+}
+
+.body-home{
+    background-image: url('images/BKG-All.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-clip{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+  
+  .background-clip {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  video {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: -1;
+  }
+
+
+@media (min-aspect-radio : 16/9) {
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-radio : 16/9) {
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
+
+/*============= FOOD PAGE ==============*/
+
+.h1{
+    font: bolder;
+    font-size: large;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.main{
+    border: black;
+}
+
+/*============= RESPONSIVE LAYOUT ==============*/
+
+@media screen and (max-width: 800px) {
+    .background-clip {
+        background-image: url('images/mixkit-chicken-burger-with-french-fries-3537-medium.mp4');
+    }
+}
+
+@media screen and (min-width: 556px) {
+    .background-clip {
+        background-image: url('images/mixkit-chicken-burger-with-french-fries-3537-medium.mp4');
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stye.css">
+    </head>
+    <img src="images/kings feast.png" id="home-logo-img">
+    <style>
+        .body-home {
+          background-image: url(images/BKG-dessert.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+        </style>
+
+    <body>
+        <h1>GOURMET <b>BURGERS</b> </h1>
+
+        <img src="images/buffet2.jpg">
+        <h4>Burger Buzz</h4>
+        <h3>R255.00</h3>
+        <p>8 Burgers French Fried 16 Wings and a roll</p>
+
+        <img src="images/buffet3.jpg" height="650px">
+        <h4>The Grill Thrill</h4>
+        <h3>R350.00</h3>
+        <p>16 Nuggets 12 Wings 2 Medium French Fried 4 Burgers</p>
+        <h5>Servers: 8 people</em></h5>
+
+        <label for="Toppings">Choose Your Toppings:</label>
+        <select id="Toppings">
+            <option value="choose">Choose</option>
+            <option value="Bacon">Bacon</option>
+            <option value="Cheese">Cheese</option>
+            <option value="Lettuce">Lettuce</option>
+            <option value="Pickles">Pickles</option>
+            <option value="Ketchup">Ketchup</option>
+            <option value="tomato">Tomato</option>
+        </select>
+
+        <form action="/action_page.php">
+            <p>Please Select Your Burger:</p>
+            <input type="radio" id="BurgerBuzz" name="fav_language" value="Burger Buzz">
+            <label for="BurgerBuzz">Burger Buzz</label><br>
+            <input type="radio" id="BurgerN'Bite" name="fav_language" value="Burger N' Bite">
+            <label for="BurgerN'Bite">The Grill Thrill</label>
+        <h6><i>You will be charged for Extras. Sauces are excluded</i></h6>
+        <button type="button"><a href="order.html">ORDER NOW</a></button>
+    </body>
+</html>
